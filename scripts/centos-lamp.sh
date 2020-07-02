@@ -35,4 +35,4 @@ sudo -u vagrant wget -q https://raw.githubusercontent.com/gscott187/vagrant/mast
 sudo -u vagrant wget -q https://raw.githubusercontent.com/gscott187/vagrant/master/files/info.php
 
 
-Service httpd restart
+service httpd restart
