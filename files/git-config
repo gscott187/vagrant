@@ -1,0 +1,14 @@
+[gui]
+	recentrepo = E:/HTML5 & CSS3 Course/OmniFoods
+	recentrepo = E:/WordPress/Ohio-Jim Group
+[user]
+	name = Greg Scott
+	mail = gw.scott@virgin.net
+	email = gw.scott@virgin.net
+[core]
+	editor = code --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
